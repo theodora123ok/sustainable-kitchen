@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Kitchen for Kids</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#f4f0f0] text-gray-900">
+    
+    <!-- Hero Section -->
+    <section class="text-center py-20 bg-[#2e7d32] text-white relative overflow-hidden">
+        <h1 class="text-5xl font-extrabold uppercase">🌍 Don't Miss Out! A Future of Sustainability Starts Here! 🌱</h1>
+        <p class="mt-4 text-lg font-semibold">👦👧 Join the movement where kids learn to reduce food waste, save energy, and create delicious vegan chocolates! 🍫</p>
+        <a href="#waitlist" class="mt-6 inline-block bg-[#e9e7e5] text-[#2e7d32] py-3 px-6 font-bold rounded-lg shadow-lg hover:bg-[#757e65] hover:text-white transition">🚀 Join the Waitlist Now!</a>
+        <div class="absolute -bottom-10 left-0 w-full flex justify-center">
+            <img src="https://source.unsplash.com/600x300/?queue,children" alt="People queuing" class="rounded-lg shadow-lg">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="max-w-4xl mx-auto text-center py-16 text-[#103e91]">
+        <h2 class="text-4xl font-bold">❓ What is This About?</h2>
+        <p class="mt-4 text-lg font-semibold">🎉 An interactive, life-changing experience where kids explore sustainability while having a blast! ♻️</p>
+    </section>
+
+    <!-- Why It’s Important -->
+    <section class="bg-[#e9e7e5] py-16 px-6">
+        <div class="max-w-4xl mx-auto text-center text-[#757e65]">
+            <h2 class="text-4xl font-bold">🌎 Sustainability is the Future – Be Part of It!</h2>
+            <p class="mt-4 text-lg font-semibold">Your child will learn how small kitchen habits create a massive impact on our planet! 🌿</p>
+            <ul class="mt-6 space-y-4 text-left text-lg font-bold">
+                <li>✅ Reduce food waste 🍽️</li>
+                <li>✅ Master energy-saving tricks 💡</li>
+                <li>✅ Create delicious & sustainable snacks 🥑</li>
+            </ul>
+        </div>
+        <div class="mt-8 flex justify-center">
+            <img src="danae1.jpg" alt="Kids making sustainable snacks" class="rounded-lg shadow-lg max-w-full h-auto">
+        </div>
+    </section>
+
+    <!-- Program Highlights -->
+    <section class="bg-[#103e91] py-16 text-center text-white">
+        <h2 class="text-4xl font-bold">🔥 A Hands-On, Eye-Opening Experience 🔥</h2>
+        <div class="mt-6 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="p-6 bg-[#757e65] text-white shadow-lg rounded-lg font-bold">🍫 Make Vegan Chocolates</div>
+            <div class="p-6 bg-[#e9e7e5] text-[#103e91] shadow-lg rounded-lg font-bold">♻️ Play Sustainability Challenges</div>
+            <div class="p-6 bg-[#757e65] text-white shadow-lg rounded-lg font-bold">💧 Discover Energy & Water Hacks</div>
+            <div class="p-6 bg-[#e9e7e5] text-[#103e91] shadow-lg rounded-lg font-bold">🌱 Create an Eco-Friendly Kitchen</div>
+        </div>
+    </section>
+
+    <!-- Waitlist Signup -->
+    <section id="waitlist" class="py-16 bg-[#757e65] text-center text-white">
+        <h2 class="text-4xl font-bold">🛑 Secure Your Spot - Limited Spaces Available! ⏳</h2>
+        <p class="mt-4 text-lg font-semibold">📩 Sign up now and be the first to know when we launch!</p>
+        <form class="mt-6 max-w-lg mx-auto bg-[#e9e7e5] p-6 rounded-lg shadow-lg">
+            <input type="text" placeholder="👨‍👩‍👦 Parent's Name" class="w-full p-3 mb-4 border rounded text-[#103e91]">
+            <input type="email" placeholder="📧 Email" class="w-full p-3 mb-4 border rounded text-[#103e91]">
+            <input type="text" placeholder="📍 Region" class="w-full p-3 mb-4 border rounded text-[#103e91]">
+            <input type="number" placeholder="👦 Child’s Age" class="w-full p-3 mb-4 border rounded text-[#103e91]">
+            <button class="w-full bg-[#103e91] text-white py-3 font-bold rounded-lg hover:bg-[#757e65] transition">🚀 Get Notified</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 bg-[#103e91] text-white font-bold">
+        <p>📩 Contact us at: <a href="mailto:info@sustainablekids.com" class="underline">info@sustainablekids.com</a></p>
+    </footer>
+    
+</body>
+</html>
+Initial commit for landing page
